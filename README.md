@@ -13,13 +13,20 @@ This algorithm solves the 3D bin packing problem, which involves efficiently pac
 The 3D bin packing algorithm follows these steps to solve the problem:
 
 **Box Placement**: The algorithm iterates over each box and tries all possible orientations and positions within the pallets.
+
 **Overlap Check**: For each position, the algorithm checks if the box overlaps with any previously placed boxes.
+
 **Stability Check**: The algorithm verifies if the box is stable by comparing its volume to the volume of the lower boxes it rests upon.
+
 **Packing Result**: If a valid position is found, the algorithm places the box on top of the pallet.
+
 **Skipping**: If a box cannot be placed in any position, the algorithm skips it.
+
 **Output**: The algorithm outputs the positions of the packed boxes, including the coordinates of their centers.
 
-**Conclusion**
+
+
+**Conclusion** : 
 The 3D bin packing algorithm implemented in this repository offers a solution to efficiently pack three-dimensional boxes into pallets while maximizing space utilization and ensuring stability. By following the steps outlined in the README file, users can easily understand and use the algorithm to optimize packing arrangements in various scenarios.
 
 
