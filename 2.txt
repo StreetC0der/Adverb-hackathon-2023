@@ -1,4 +1,6 @@
-104, 97, 84
+Test data
+Pallet dimension -104, 97, 84
+Boxes dimension - (length,breadth,height,frequency)
 52, 60, 42, 2
 36, 46, 84, 1
 26, 36, 84, 1
